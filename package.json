@@ -1,0 +1,17 @@
+{
+  "name": "pje-expert-whatsapp",
+  "version": "1.0.0",
+  "description": "Servidor WhatsApp do PJE-Expert (TRF5) via Twilio Sandbox",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "body-parser": "^1.20.2",
+    "twilio": "^5.0.0"
+  }
+}
